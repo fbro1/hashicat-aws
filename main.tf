@@ -18,8 +18,6 @@ resource aws_subnet "hashicat" {
 
   tags = {
     name = "${var.prefix}-subnet"
-    billable = "true"
-    department = "devops"
   }
 }
 
